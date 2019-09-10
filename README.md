@@ -12,7 +12,7 @@ You are not allowed to collaborate during the Sprint Challenge. However, you are
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
-## Commits
+## Commits 
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
@@ -30,13 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach() executes on each element of an array while .map creates a new
+array based off of the code that is being executed.
+
 2. What is the difference between a function and a method?
+
+Where they are located. A method is merely a function within in an object.
 
 3. What is closure?
 
+Closure is the concept of how functions access variable definitions. If a variable isn't defined within a function scope it will look outward, globally, for the variable defnition. 
+
 4. Describe the four rules of the 'this' keyword.
 
+window binding - 'this' refers to the window/console /* not good */
+implicit binding - when 'this' refers to the object that preceeds the '.'
+new binding - when a contructor functions is being used 'this' refers to the specific instance of the object being instantiated
+explicit binding - when the .call or .apply method is being use 'this' refers to the specific object that is overriding whatever properties instatiated by the constructor function
+
 5. Why do we need super() in an extended class?
+
+it allows us to access the properties of the extended class
 
 ## Project Set up
 
